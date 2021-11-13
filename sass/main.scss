@@ -1,3 +1,25 @@
+@import "./utils/variables";
+
 * {
     box-sizing: content-box;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+
+    img {
+        height: $header-logo-height;
+        width: $header-logo-width;
+    }
+}
+
+.subheader {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    gap: 2%;
+
+    color: $subheader-color;
+    background-color: $subheader-background-color;
 }

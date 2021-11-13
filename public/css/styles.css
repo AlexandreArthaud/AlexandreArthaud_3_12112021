@@ -2,4 +2,22 @@
   box-sizing: content-box;
 }
 
+header {
+  display: flex;
+  justify-content: center;
+}
+header img {
+  height: 30%;
+  width: 30%;
+}
+
+.subheader {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  gap: 2%;
+  color: #353535;
+  background-color: #eaeaea;
+}
+
 /*# sourceMappingURL=styles.css.map */
