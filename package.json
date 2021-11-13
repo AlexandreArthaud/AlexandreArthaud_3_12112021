@@ -1,0 +1,19 @@
+{
+  "name": "alexandrearthaud_3_12112021",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch ./sass/main.scss:./public/css/styles.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlexandreArthaud/AlexandreArthaud_3_12112021.git"
+  },
+  "author": "Alexandre Arthaud",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlexandreArthaud/AlexandreArthaud_3_12112021/issues"
+  },
+  "homepage": "https://github.com/AlexandreArthaud/AlexandreArthaud_3_12112021#readme"
+}
