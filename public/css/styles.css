@@ -12,6 +12,10 @@ header img {
   width: 30%;
 }
 
+.menu-header {
+  justify-content: flex-start;
+}
+
 .subheader {
   display: flex;
   justify-content: center;
