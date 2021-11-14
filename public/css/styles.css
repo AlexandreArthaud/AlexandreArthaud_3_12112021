@@ -5,6 +5,7 @@
 header {
   display: flex;
   justify-content: center;
+  padding: 3%;
 }
 header img {
   height: 30%;
@@ -18,6 +19,125 @@ header img {
   gap: 2%;
   color: #353535;
   background-color: #eaeaea;
+}
+
+.introduction {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 5%;
+  padding-bottom: 10%;
+  padding-left: 25%;
+  padding-right: 25%;
+  background-color: #f6f6f6;
+  text-align: center;
+}
+.introduction h2 {
+  margin: 0;
+}
+.introduction button {
+  width: 80%;
+  border: 0;
+  border-radius: 40px 40px 40px 40px;
+  padding: 4%;
+  background: linear-gradient(#c165db, #9356dc);
+  color: white;
+  font-size: 110%;
+}
+
+.howto h2 {
+  margin-left: 40px;
+}
+
+.howto__list .howto__list__item {
+  display: flex;
+  align-items: baseline;
+  gap: 10%;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 5%;
+  margin-top: 5%;
+  border-radius: 20px 20px 20px 20px;
+  background-color: #f6f6f6;
+}
+.howto__list .howto__list__item i {
+  width: 10px;
+  color: #7e7e7e;
+}
+.howto__list .howto__list__item__number {
+  border-radius: 50%;
+  background-color: #9356dc;
+  color: white;
+}
+.howto__list .howto__list__item:nth-child(3) {
+  background-color: #f5edff;
+}
+.howto__list .howto__list__item:nth-child(3) i {
+  color: #9356dc;
+}
+
+.restaurants {
+  display: flex;
+  flex-direction: column;
+  background-color: #f6f6f6;
+}
+.restaurants > h2 {
+  margin-left: 40px;
+}
+.restaurants__list__item {
+  color: black;
+  text-decoration: none;
+}
+.restaurants__list__item figure img {
+  width: 100%;
+  height: 30vh;
+  border-radius: 20px 20px 0 0;
+  object-fit: cover;
+  vertical-align: middle;
+}
+.restaurants__list__item figure figcaption {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 0 0 20px 20px;
+  padding-left: 4%;
+  padding-right: 4%;
+  line-height: 90%;
+  background-color: white;
+}
+.restaurants__list__item figure figcaption h3 {
+  font-weight: normal;
+}
+.restaurants__list__item figure figcaption i {
+  font-size: 150%;
+  color: gray;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  background-color: #353535;
+  color: white;
+  padding: 4%;
+}
+footer img {
+  width: 6rem;
+  color: white;
+}
+footer nav {
+  width: 100%;
+}
+footer nav ul {
+  padding-left: 0;
+  width: 100%;
+  list-style-type: none;
+}
+footer nav ul li {
+  line-height: 180%;
+}
+footer nav ul li i {
+  width: 4%;
 }
 
 /*# sourceMappingURL=styles.css.map */
