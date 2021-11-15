@@ -2,18 +2,33 @@
   box-sizing: content-box;
 }
 
-header {
+img {
+  object-fit: cover;
+}
+
+button {
+  border: 0;
+  border-radius: 40px 40px 40px 40px;
+  padding: 4%;
+  background: linear-gradient(#c165db, #9356dc);
+  color: white;
+  font-size: 110%;
+}
+
+.site-header {
   display: flex;
   justify-content: center;
   padding: 3%;
 }
-header img {
+.site-header img {
   height: 30%;
   width: 30%;
 }
 
 .menu-header {
   justify-content: flex-start;
+  align-items: center;
+  gap: 30%;
 }
 
 .subheader {
@@ -23,6 +38,16 @@ header img {
   gap: 2%;
   color: #353535;
   background-color: #eaeaea;
+}
+
+.menu-cover {
+  margin: 0;
+  height: 150%;
+}
+.menu-cover img {
+  display: block;
+  width: 100%;
+  height: 40%;
 }
 
 .introduction {
@@ -117,6 +142,56 @@ header img {
   color: gray;
 }
 
+.menu {
+  padding-left: 2%;
+  padding-right: 2%;
+  background-color: #f6f6f6;
+}
+.menu__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  padding-left: 4%;
+  padding-right: 4%;
+}
+.menu__section__header {
+  width: fit-content;
+}
+.menu__section__header h3 {
+  width: 40px;
+  padding-bottom: 20%;
+  border-bottom: 3px solid #99e2d0;
+  text-transform: uppercase;
+  font-size: 90%;
+  font-weight: normal;
+}
+.menu__section__item {
+  background-color: white;
+  border-radius: 10px 10px 10px 10px;
+  padding-left: 2%;
+  padding-right: 4%;
+}
+.menu__section__item h4 {
+  margin-bottom: 0;
+  padding-top: 2%;
+}
+.menu__section__item div {
+  display: flex;
+  justify-content: space-between;
+  line-height: 0;
+}
+.menu__section__item__price {
+  font-weight: bold;
+}
+.menu__button-area {
+  display: flex;
+  justify-content: center;
+  padding: 12%;
+}
+.menu__button-area button {
+  width: 50%;
+}
+
 footer {
   display: flex;
   flex-direction: column;
@@ -142,6 +217,7 @@ footer nav ul li {
 }
 footer nav ul li i {
   width: 4%;
+  padding-right: 10px;
 }
 
 /*# sourceMappingURL=styles.css.map */

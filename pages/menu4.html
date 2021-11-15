@@ -18,111 +18,119 @@
 </head>
 
 <body>
-    <header class="menu-header">
+    <header class="site-header menu-header">
         <a href="../index.html">
             <i class="fas fa-arrow-left"></i>
         </a>
 		<img src="../public/images/ohmyfood.png" />
     </header>
 
-    <figure>
-        <img src="../public/images/jay-wennington-N_Y88TWmGwA-unsplash.jpg" style="width:100px;height:100px" />
+    <figure class="menu-cover">
+        <img src="../public/images/jay-wennington-N_Y88TWmGwA-unsplash.jpg" />
     </figure>
 
-    <main>
-        <header>
+    <main class="menu">
+        <header class="menu__header">
             <h2>Le délice des sens</h2>
             <i class="far fa-heart"></i>
         </header>
 
-        <section>
-            <h3>Entrées</h3>
+        <section class="menu__section">
+            <header class="menu__section__header">
+                <h3>Entrées</h3>
+            </header>
 
-            <section>
+            <section class="menu__section__item">
                 <h4>Tartare de thon</h4>
                 <div>
                     <p>Assaisonné au yuzu</p>
-                    <p>25€</p>
+                    <p class="menu__section__item__price">25€</p>
                 </div>
             </section>
 
-            <section>
+            <section class="menu__section__item">
                 <h4>Bouchée de homard croustillant </h4>
                 <div>
                     <p>Et sa farandole de petits légumes</p>
-                    <p>35€</p>
+                    <p class="menu__section__item__price">35€</p>
                 </div>
             </section>
 
-            <section>
+            <section class="menu__section__item">
                 <h4>Velouté de cèpes</h4>
                 <div>
                     <p>Aux truffes</p>
-                    <p>20€</p>
+                    <p class="menu__section__item__price">20€</p>
                 </div>
             </section>
 
         </section>
 
-        <section>
-            <h3>Plats</h3>
+        <section class="menu__section">
+            <header class="menu__section__header">
+                <h3>Plats</h3>
+            </header>
 
-            <section>
+            <section class="menu__section__item">
                 <h4>Poulet rôti aux herbes de Provence </h4>
                 <div>
                     <p>Et sa crème de truffe</p>
-                    <p>40€</p>
+                    <p class="menu__section__item__price">40€</p>
                 </div>
             </section>
 
-            <section>
+            <section class="menu__section__item">
                 <h4>Langouste rôtie </h4>
                 <div>
                     <p>Et ses légumes de saison</p>
-                    <p>35€</p>
+                    <p class="menu__section__item__price">35€</p>
                 </div>
             </section>
 
-            <section>
-                <h4>Côte de boeuf Angus </h4>
+            <section class="menu__section__item">
+                <h4>Côte de boeuf Angus</h4>
                 <div>
                     <p>Et sa purée de panais</p>
-                    <p>44€</p>
+                    <p class="menu__section__item__price">44€</p>
                 </div>
             </section>
 
         </section>
 
-        <section>
-            <h3>Desserts</h3>
+        <section class="menu__section">
+            <header class="menu__section__header">
+                <h3>Desserts</h3>
+            </header>
 
-            <section>
+            <section class="menu__section__item">
                 <h4>Farandole de desserts</h4>
                 <div>
                     <p>Du chef</p>
-                    <p>18€</p>
+                    <p class="menu__section__item__price">18€</p>
                 </div>
             </section>
 
-            <section>
+            <section class="menu__section__item">
                 <h4>Crème brulée </h4>
                 <div>
                     <p>Revisitée</p>
-                    <p>22€</p>
+                    <p class="menu__section__item__price">22€</p>
                 </div>
             </section>
 
-            <section>
+            <section class="menu__section__item">
                 <h4>Tiramisu</h4>
                 <div>
                     <p>À la noisette</p>
-                    <p>23€</p>
+                    <p class="menu__section__item__price">23€</p>
                 </div>
             </section>
 
         </section>
 
-        <button>Commander</button>
+        <div class="menu__button-area">
+            <button>Commander</button>
+        </div>
     </main>
 
     <footer>
@@ -130,8 +138,14 @@
 
         <nav>
             <ul>
-                <li>Proposer un restaraurant</li>
-                <li>Devenir partenaire</li>
+				<li>
+					<i class="fas fa-utensils"></i>
+					Proposer un restaraurant
+				</li>
+				<li>
+					<i class="fas fa-hands-helping"></i>
+					Devenir partenaire
+				</li>
                 <li>Mentions légales</li>
                 <li>Contact</li>
             </ul>
