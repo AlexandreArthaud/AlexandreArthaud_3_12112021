@@ -1,7 +1,19 @@
 @import "./utils/variables";
 
+@font-face {
+    font-family: Shrikhand;
+    src: url("../fonts/Shrikhand-Regular.ttf");
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url("../fonts/Roboto-Regular.ttf");
+}
+
 * {
     box-sizing: content-box;
+
+    font-family: Roboto;
 }
 
 img {
