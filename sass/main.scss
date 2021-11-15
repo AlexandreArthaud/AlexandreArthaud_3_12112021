@@ -180,6 +180,20 @@ button {
             font-size: 150%;
             color: gray;
         }
+
+        .fas.fa-heart {
+            display: none;
+        }
+
+        .fa-stack:hover {
+            .far.fa-heart {
+                display: none;
+            }
+            .fas.fa-heart {
+                display: block;
+                color: $purple-1;
+            }
+        }
     }
 }
 

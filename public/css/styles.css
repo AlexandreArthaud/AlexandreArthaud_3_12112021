@@ -141,6 +141,16 @@ button {
   font-size: 150%;
   color: gray;
 }
+.restaurants__list .fas.fa-heart {
+  display: none;
+}
+.restaurants__list .fa-stack:hover .far.fa-heart {
+  display: none;
+}
+.restaurants__list .fa-stack:hover .fas.fa-heart {
+  display: block;
+  color: #9356dc;
+}
 
 .menu {
   padding-left: 2%;
