@@ -47,6 +47,7 @@ button {
     justify-content: flex-start;
     align-items: center;
     gap: 30%;
+
 }
 
 .subheader {
@@ -220,8 +221,9 @@ button {
         justify-content: space-between;
         align-items: baseline;
 
-        padding-left: 4%;
-        padding-right: 4%;
+        h2 {
+            font-family: Shrikhand;
+        }
     }
 
     &__section__header {

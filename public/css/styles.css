@@ -170,8 +170,9 @@ button {
   display: flex;
   justify-content: space-between;
   align-items: baseline;
-  padding-left: 4%;
-  padding-right: 4%;
+}
+.menu__header h2 {
+  font-family: Shrikhand;
 }
 .menu__section__header {
   width: fit-content;
