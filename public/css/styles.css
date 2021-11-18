@@ -1,3 +1,11 @@
+* {
+  box-sizing: content-box;
+}
+
+img {
+  object-fit: cover;
+}
+
 @font-face {
   font-family: Shrikhand;
   src: url("../fonts/Shrikhand-Regular.ttf");
@@ -7,21 +15,7 @@
   src: url("../fonts/Roboto-Regular.ttf");
 }
 * {
-  box-sizing: content-box;
   font-family: Roboto;
-}
-
-img {
-  object-fit: cover;
-}
-
-button {
-  border: 0;
-  border-radius: 40px 40px 40px 40px;
-  padding: 4%;
-  background: linear-gradient(#c165db, #9356dc);
-  color: white;
-  font-size: 110%;
 }
 
 .site-header {
@@ -57,6 +51,34 @@ button {
   display: block;
   width: 100%;
   height: 40%;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  background-color: #353535;
+  color: white;
+  padding: 4%;
+}
+footer img {
+  width: 6rem;
+  color: white;
+}
+footer nav {
+  width: 100%;
+}
+footer nav ul {
+  padding-left: 0;
+  width: 100%;
+  list-style-type: none;
+}
+footer nav ul li {
+  line-height: 180%;
+}
+footer nav ul li i {
+  width: 4%;
+  padding-right: 10px;
 }
 
 .introduction {
@@ -134,7 +156,6 @@ button {
   width: 100%;
   height: 30vh;
   border-radius: 20px 20px 0 0;
-  object-fit: cover;
   vertical-align: middle;
 }
 .restaurants__list__item figure figcaption {
@@ -214,34 +235,12 @@ button {
 }
 .menu__button-area button {
   width: 50%;
-}
-
-footer {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  background-color: #353535;
-  color: white;
+  border: 0;
+  border-radius: 40px 40px 40px 40px;
   padding: 4%;
-}
-footer img {
-  width: 6rem;
+  background: linear-gradient(#c165db, #9356dc);
   color: white;
-}
-footer nav {
-  width: 100%;
-}
-footer nav ul {
-  padding-left: 0;
-  width: 100%;
-  list-style-type: none;
-}
-footer nav ul li {
-  line-height: 180%;
-}
-footer nav ul li i {
-  width: 4%;
-  padding-right: 10px;
+  font-size: 110%;
 }
 
 /*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,41 @@
+.site-header {
+    display: flex;
+    justify-content: center;
+
+    padding: 3%;
+
+    img {
+        height: $header-logo-height;
+        width: $header-logo-width;
+    }
+}
+
+.menu-header {
+    justify-content: flex-start;
+    align-items: center;
+    gap: 30%;
+
+}
+
+.subheader {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    gap: 2%;
+
+    color: $black-1;
+    background-color: $gray-1;
+}
+
+.menu-cover {
+    margin: 0;
+
+    height: 150%;
+
+    img {
+        display: block;
+
+        width: 100%;
+        height: 40%;
+    }
+}

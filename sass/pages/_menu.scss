@@ -1,0 +1,68 @@
+.menu {
+    padding-left: 2%;
+    padding-right: 2%;
+
+    background-color: $gray-2;
+
+    &__header {
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+
+        h2 {
+            font-family: Shrikhand;
+        }
+    }
+
+    &__section__header {
+        width: fit-content;
+
+        h3 {
+            width: 40px;
+
+            padding-bottom: 20%;
+            border-bottom: 3px solid $green-1;
+
+            text-transform: uppercase;
+            font-size: 90%;
+            font-weight: normal;
+        }
+    }
+
+    &__section__item {
+        background-color: white;
+
+        border-radius: 10px 10px 10px 10px;
+        padding-left: 2%;
+        padding-right: 4%;
+
+        h4 {
+            margin-bottom: 0;
+            padding-top: 2%;
+        }
+
+        div {
+            display: flex;
+            justify-content: space-between;
+
+            line-height: 0; 
+        }
+
+        &__price {
+            font-weight: bold;
+        }
+    }
+
+    &__button-area {
+        display: flex;
+        justify-content: center;
+
+        padding: 12%;
+
+        button {
+            width: 50%;
+
+            @include button;
+        }
+    }
+}
