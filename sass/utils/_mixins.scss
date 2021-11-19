@@ -1,10 +1,24 @@
 @mixin button {
+    $box-shadow-color: $gray-3;
+    $hover-lighten-multiplier: 2%;
+
     border: 0;
     border-radius: 40px 40px 40px 40px;
+    box-shadow: 0px 0px 2px $box-shadow-color;
     padding: 4%;
 
-    background: linear-gradient($magenta-1, $purple-1);
+    background: linear-gradient(0.25turn, $secondary-color, $primary-color);
     color: white;
 
     font-size: 110%;
+
+    transition: all 200ms;
+
+
+    &:hover {
+        background: linear-gradient(lighten($secondary-color, $hover-lighten-multiplier), lighten($primary-color, $hover-lighten-multiplier));
+        box-shadow: 0px 0px 8px $box-shadow-color;
+
+        cursor: pointer;
+    }
 }

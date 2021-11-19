@@ -99,10 +99,17 @@ footer nav ul li i {
   width: 80%;
   border: 0;
   border-radius: 40px 40px 40px 40px;
+  box-shadow: 0px 0px 2px #7e7e7e;
   padding: 4%;
-  background: linear-gradient(#c165db, #9356dc);
+  background: linear-gradient(0.25turn, #FF79DA, #9356DC);
   color: white;
   font-size: 110%;
+  transition: all 200ms;
+}
+.introduction button:hover {
+  background: linear-gradient(#ff83dd, #985ede);
+  box-shadow: 0px 0px 8px #7e7e7e;
+  cursor: pointer;
 }
 
 .howto h2 {
@@ -237,10 +244,17 @@ footer nav ul li i {
   width: 50%;
   border: 0;
   border-radius: 40px 40px 40px 40px;
+  box-shadow: 0px 0px 2px #7e7e7e;
   padding: 4%;
-  background: linear-gradient(#c165db, #9356dc);
+  background: linear-gradient(0.25turn, #FF79DA, #9356DC);
   color: white;
   font-size: 110%;
+  transition: all 200ms;
+}
+.menu__button-area button:hover {
+  background: linear-gradient(#ff83dd, #985ede);
+  box-shadow: 0px 0px 8px #7e7e7e;
+  cursor: pointer;
 }
 
 /*# sourceMappingURL=styles.css.map */
