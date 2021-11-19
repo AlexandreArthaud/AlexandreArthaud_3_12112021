@@ -116,7 +116,9 @@
         }
 
         .fas.fa-heart {
-            display: none;
+            opacity: 0;
+
+            transition: opacity 0s;
         }
 
         .fa-stack:hover {
@@ -124,8 +126,10 @@
                 display: none;
             }
             .fas.fa-heart {
-                display: block;
+                opacity: 1;
                 color: $purple-1;
+
+                transition: opacity 0.5s;
             }
         }
     }
