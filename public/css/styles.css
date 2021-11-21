@@ -150,6 +150,7 @@ footer nav ul li i {
 .restaurants {
   display: flex;
   flex-direction: column;
+  padding-bottom: 15%;
   background-color: #f6f6f6;
 }
 .restaurants > h2 {
