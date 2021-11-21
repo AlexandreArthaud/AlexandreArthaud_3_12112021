@@ -195,6 +195,47 @@ footer nav ul li i {
   transition: opacity 0.5s;
 }
 
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.menu__section__item {
+  opacity: 0;
+}
+
+.menu__section__item:nth-of-type(1) {
+  animation-name: fadein;
+  animation-duration: 1s;
+  animation-delay: 100ms;
+  animation-fill-mode: forwards;
+}
+
+.menu__section__item {
+  opacity: 0;
+}
+
+.menu__section__item:nth-of-type(2) {
+  animation-name: fadein;
+  animation-duration: 2s;
+  animation-delay: 200ms;
+  animation-fill-mode: forwards;
+}
+
+.menu__section__item {
+  opacity: 0;
+}
+
+.menu__section__item:nth-of-type(3) {
+  animation-name: fadein;
+  animation-duration: 3s;
+  animation-delay: 300ms;
+  animation-fill-mode: forwards;
+}
+
 .menu {
   padding-left: 2%;
   padding-right: 2%;
