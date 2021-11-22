@@ -34,25 +34,6 @@ img {
   gap: 30%;
 }
 
-.subheader {
-  display: flex;
-  justify-content: center;
-  align-items: baseline;
-  gap: 2%;
-  color: #353535;
-  background-color: #eaeaea;
-}
-
-.menu-cover {
-  margin: 0;
-  height: 150%;
-}
-.menu-cover img {
-  display: block;
-  width: 100%;
-  height: 40%;
-}
-
 footer {
   display: flex;
   flex-direction: column;
@@ -79,6 +60,15 @@ footer nav ul li {
 footer nav ul li i {
   width: 4%;
   padding-right: 10px;
+}
+
+.subheader {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  gap: 2%;
+  color: #353535;
+  background-color: #eaeaea;
 }
 
 .introduction {
@@ -236,6 +226,16 @@ footer nav ul li i {
   animation-duration: 3s;
   animation-delay: 300ms;
   animation-fill-mode: forwards;
+}
+
+.menu-cover {
+  margin: 0;
+  height: 150%;
+}
+.menu-cover img {
+  display: block;
+  width: 100%;
+  height: 30vh;
 }
 
 .menu {
