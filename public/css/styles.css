@@ -234,6 +234,7 @@ footer nav ul li i {
   display: flex;
   justify-content: space-between;
   align-items: baseline;
+  font-size: 140%;
 }
 .menu__header h2 {
   font-family: Shrikhand;
