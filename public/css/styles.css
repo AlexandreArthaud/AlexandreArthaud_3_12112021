@@ -188,6 +188,17 @@ footer nav ul li i {
   animation-fill-mode: forwards;
 }
 
+.menu__section__item {
+  opacity: 0;
+}
+
+.menu__section__item:nth-of-type(4) {
+  animation-name: fadein;
+  animation-duration: 4s;
+  animation-delay: 400ms;
+  animation-fill-mode: forwards;
+}
+
 .menu-cover {
   margin: 0;
   height: 150%;
