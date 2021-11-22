@@ -117,23 +117,8 @@
             color: gray;
         }
 
-        .fas.fa-heart {
-            opacity: 0;
 
-            transition: opacity 0s;
-        }
-
-        .fa-stack:hover {
-            .far.fa-heart {
-                display: none;
-            }
-            .fas.fa-heart {
-                opacity: 1;
-                color: $purple-1;
-
-                transition: opacity 0.5s;
-            }
-        }
+        @include like;
     }
 }
 

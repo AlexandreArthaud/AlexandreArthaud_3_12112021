@@ -34,6 +34,8 @@
         h2 {
             font-family: Shrikhand;
         }
+
+        @include like;
     }
 
     &__section__header {
