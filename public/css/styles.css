@@ -18,6 +18,38 @@ img {
   font-family: Roboto;
 }
 
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+@keyframes fadeout {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes rotate {
+  from {
+    transform: rotate(0deg) scale(1);
+  }
+  to {
+    transform: rotate(-360deg) scale(1);
+  }
+}
 .site-header {
   display: flex;
   justify-content: center;
@@ -61,6 +93,27 @@ footer nav ul li {
 footer nav ul li i {
   width: 4%;
   padding-right: 10px;
+}
+
+.loader ~ * {
+  opacity: 0;
+  animation: fadein 0.5s 1.5s forwards;
+}
+
+.loader {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 40%;
+  margin-left: auto;
+  margin-right: auto;
+  border: 16px solid #eaeaea;
+  border-top: 16px solid #353535;
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  z-index: 10;
+  animation: spin 1.5s linear, fadeout 0s 1.5s forwards;
 }
 
 .subheader {
@@ -156,30 +209,6 @@ footer nav ul li i {
   margin-left: 40px;
 }
 
-@keyframes fadein {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
-}
-@keyframes reveal {
-  from {
-    clip-path: inset(0 0 0 100%);
-  }
-  to {
-    clip-path: inset(0 0 0 0);
-  }
-}
-@keyframes rotate {
-  from {
-    transform: rotate(0deg) scale(1);
-  }
-  to {
-    transform: rotate(-360deg) scale(1);
-  }
-}
 .menu__section__item {
   opacity: 0;
 }
@@ -333,7 +362,6 @@ footer nav ul li i {
 .menu__section__item:hover .menu__section__item__check {
   width: 25%;
   opacity: 1;
-  animation: reveal 0.6s;
 }
 .menu__section__item:hover .menu__section__item__check i {
   transition: opacity;
