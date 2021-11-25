@@ -6,6 +6,8 @@
 
     color: $black-1;
     background-color: $gray-1;
+
+    font-size: 120%;
 }
 
 .introduction {
@@ -22,8 +24,17 @@
 
     text-align: center;
 
+    line-height: 180%;
+
     h2 {
         margin: 0;
+        
+        font-size: 200%;
+    }
+
+    p {
+        font-size: 130%;
+        color: $gray-3;
     }
 
     button {
@@ -52,7 +63,8 @@
         background-color: $gray-2;
 
         i {
-            width: 10px;
+            width: 10%;
+            font-size: 160%;
             color: $gray-3;
         }
 

@@ -7,16 +7,16 @@
     box-shadow: 0px 0px 2px $box-shadow-color;
     padding: 4%;
 
-    background: linear-gradient(0.25turn, $secondary-color, $primary-color);
+    background: linear-gradient(to bottom right, $secondary-color, $primary-color);
     color: white;
 
-    font-size: 110%;
+    font-size: 130%;
 
     transition: all 200ms;
 
 
     &:hover {
-        background: linear-gradient(lighten($secondary-color, $hover-lighten-multiplier), lighten($primary-color, $hover-lighten-multiplier));
+        background: linear-gradient(to bottom right, lighten($secondary-color, $hover-lighten-multiplier), lighten($primary-color, $hover-lighten-multiplier));
         box-shadow: 0px 0px 8px $box-shadow-color;
 
         cursor: pointer;

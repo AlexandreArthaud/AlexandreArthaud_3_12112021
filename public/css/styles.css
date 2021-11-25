@@ -26,6 +26,7 @@ img {
 .site-header img {
   height: 30%;
   width: 30%;
+  color: black;
 }
 
 .menu-header {
@@ -69,6 +70,7 @@ footer nav ul li i {
   gap: 2%;
   color: #353535;
   background-color: #eaeaea;
+  font-size: 120%;
 }
 
 .introduction {
@@ -81,9 +83,15 @@ footer nav ul li i {
   padding-right: 25%;
   background-color: #f6f6f6;
   text-align: center;
+  line-height: 180%;
 }
 .introduction h2 {
   margin: 0;
+  font-size: 200%;
+}
+.introduction p {
+  font-size: 130%;
+  color: #7e7e7e;
 }
 .introduction button {
   width: 80%;
@@ -91,13 +99,13 @@ footer nav ul li i {
   border-radius: 40px 40px 40px 40px;
   box-shadow: 0px 0px 2px #7e7e7e;
   padding: 4%;
-  background: linear-gradient(0.25turn, #FF79DA, #9356DC);
+  background: linear-gradient(to bottom right, #FF79DA, #9356DC);
   color: white;
-  font-size: 110%;
+  font-size: 130%;
   transition: all 200ms;
 }
 .introduction button:hover {
-  background: linear-gradient(#ff83dd, #985ede);
+  background: linear-gradient(to bottom right, #ff83dd, #985ede);
   box-shadow: 0px 0px 8px #7e7e7e;
   cursor: pointer;
 }
@@ -118,7 +126,8 @@ footer nav ul li i {
   background-color: #f6f6f6;
 }
 .howto__list .howto__list__item i {
-  width: 10px;
+  width: 10%;
+  font-size: 160%;
   color: #7e7e7e;
 }
 .howto__list .howto__list__item__number {
@@ -215,25 +224,33 @@ footer nav ul li i {
   animation-fill-mode: forwards;
 }
 
+.menu-page {
+  background-color: #f6f6f6;
+}
+
 .menu-cover {
   margin: 0;
   height: 150%;
 }
 .menu-cover img {
   display: block;
+  height: 50vh;
   width: 100%;
-  height: 30vh;
 }
 
 .menu {
   padding-left: 2%;
   padding-right: 2%;
   background-color: #f6f6f6;
+  border-radius: 50px 50px 0 0;
+  position: relative;
+  top: -8vh;
 }
 .menu__header {
   display: flex;
   justify-content: space-between;
   align-items: baseline;
+  padding-top: 3%;
   font-size: 140%;
 }
 .menu__header h2 {
@@ -251,6 +268,9 @@ footer nav ul li i {
   color: #9356dc;
   transition: opacity 0.5s;
   cursor: pointer;
+}
+.menu__header i {
+  font-size: 140%;
 }
 .menu__section__header {
   width: fit-content;
@@ -317,7 +337,7 @@ footer nav ul li i {
 }
 .menu__section__item:hover .menu__section__item__check i {
   transition: opacity;
-  animation: rotate 0.4s;
+  animation: rotate 0.6s;
   opacity: 1;
 }
 .menu__button-area {
@@ -331,13 +351,13 @@ footer nav ul li i {
   border-radius: 40px 40px 40px 40px;
   box-shadow: 0px 0px 2px #7e7e7e;
   padding: 4%;
-  background: linear-gradient(0.25turn, #FF79DA, #9356DC);
+  background: linear-gradient(to bottom right, #FF79DA, #9356DC);
   color: white;
-  font-size: 110%;
+  font-size: 130%;
   transition: all 200ms;
 }
 .menu__button-area button:hover {
-  background: linear-gradient(#ff83dd, #985ede);
+  background: linear-gradient(to bottom right, #ff83dd, #985ede);
   box-shadow: 0px 0px 8px #7e7e7e;
   cursor: pointer;
 }
