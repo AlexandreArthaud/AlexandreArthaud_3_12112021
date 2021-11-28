@@ -2,12 +2,10 @@
     display: flex;
     justify-content: center;
 
-    padding: 3%;
+    padding: 2%;
 
     img {
-        height: $header-logo-height;
-        width: $header-logo-width;
-
+        width: 200px;  
         color: black;
     }
 }
@@ -15,6 +13,17 @@
 .menu-header {
     justify-content: flex-start;
     align-items: center;
-    gap: 30%;
 
+    a {
+        font-size: 150%;
+        color: black;
+    }
+
+    a:active {
+        color: black;
+    }
+
+    img {
+        margin: auto;
+    }
 }

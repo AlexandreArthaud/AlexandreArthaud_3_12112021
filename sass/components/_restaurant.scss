@@ -41,8 +41,6 @@
     padding-left: 4%;
     padding-right: 4%;
 
-    line-height: 90%;
-
     background-color: white;
 
     h3 {
@@ -56,6 +54,13 @@
   }
 
   @include like;
+}
+
+@media (min-width: $large_screens_breakpoint) {
+  .restaurants__list__item .new {
+    right: 10px;
+    padding: 5%;
+  }
 }
 
 

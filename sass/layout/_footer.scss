@@ -9,7 +9,7 @@ footer {
     padding: 4%;
 
     img {
-        width: 6rem;
+        width: 10rem;
 
         color: white;
     }
@@ -34,4 +34,15 @@ footer {
       }
 
     } 
+}
+
+@media (min-width: $large_screens_breakpoint) {
+    footer {
+        justify-content: center;
+        align-items: center;
+
+        nav {
+            width: unset;
+        }
+    }    
 }

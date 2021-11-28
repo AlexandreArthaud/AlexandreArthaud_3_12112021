@@ -127,3 +127,43 @@
     }
 }
 
+@media (min-width: $large_screens_breakpoint) {
+    .introduction {
+        button {
+            width: unset;
+        }
+    }
+
+    .howto {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+        h2 {
+            align-self: center;
+        }
+
+        div {
+            width: 33vw;
+        }
+    }
+
+    .restaurants {
+        padding-bottom: 2%;
+    }
+
+    .restaurants h2 {
+        align-self: center;
+    }
+
+    .restaurants__list {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+
+        &__item {
+            flex: 1;
+        }
+    }
+}
