@@ -34,4 +34,13 @@
    }
 }
 
+@keyframes reduce-z-index {
+    from {
+        z-index: 10;
+    }
+    to {
+        z-index: -1;
+    } 
+}
+
 

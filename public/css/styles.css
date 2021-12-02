@@ -50,6 +50,14 @@ img {
     transform: rotate(-360deg) scale(1);
   }
 }
+@keyframes reduce-z-index {
+  from {
+    z-index: 10;
+  }
+  to {
+    z-index: -1;
+  }
+}
 .site-header {
   display: flex;
   justify-content: center;
@@ -129,8 +137,7 @@ footer nav ul li i {
   border-radius: 50%;
   width: 120px;
   height: 120px;
-  z-index: 10;
-  animation: spin 1.5s linear, fadeout 0s 1.5s forwards;
+  animation: spin 1.5s linear, fadeout 0s 1.5s forwards, reduce-z-index 1.5s forwards;
 }
 
 .subheader {
@@ -229,6 +236,10 @@ footer nav ul li i {
 @media (min-width: 720px) {
   .introduction button {
     width: unset;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 3%;
+    padding-right: 3%;
   }
 
   .howto {
