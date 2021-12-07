@@ -191,10 +191,16 @@ footer nav ul li i {
   margin-left: 40px;
 }
 
+.howto__list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 .howto__list .howto__list__item {
   display: flex;
   align-items: baseline;
   gap: 10%;
+  width: 80%;
   margin-left: 10%;
   margin-right: 10%;
   margin-bottom: 5%;
