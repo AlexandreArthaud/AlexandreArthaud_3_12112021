@@ -110,6 +110,10 @@ footer nav ul li i {
   width: 4%;
   padding-right: 10px;
 }
+footer nav ul li a {
+  color: unset;
+  text-decoration: unset;
+}
 
 @media (min-width: 720px) {
   footer {
