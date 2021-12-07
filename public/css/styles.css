@@ -201,6 +201,7 @@ footer nav ul li i {
   margin-top: 5%;
   border-radius: 20px 20px 20px 20px;
   background-color: #f6f6f6;
+  transition: background-color 0.3s;
 }
 .howto__list .howto__list__item i {
   width: 10%;
@@ -216,10 +217,11 @@ footer nav ul li i {
   background-color: #9356dc;
   color: white;
 }
-.howto__list .howto__list__item:nth-child(3) {
+.howto__list .howto__list__item:hover {
   background-color: #f5edff;
+  cursor: pointer;
 }
-.howto__list .howto__list__item:nth-child(3) i {
+.howto__list .howto__list__item:hover i {
   color: #9356dc;
 }
 

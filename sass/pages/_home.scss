@@ -102,8 +102,11 @@
             color: white;
         }
 
-        &:nth-child(3) {
+        transition: background-color 0.3s;
+
+        &:hover {
             background-color: $gray-4;
+            cursor: pointer;
 
             i {
                 color: $purple-1;
