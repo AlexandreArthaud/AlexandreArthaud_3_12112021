@@ -29,18 +29,21 @@
 
         transition: opacity 0s;
     }
+    .far.fa-heart {
+        opacity: 1;;
+    }
 
     .fa-stack:hover {
 
         .far.fa-heart {
-            display: none;
+            opacity: 0
         }
 
         .fas.fa-heart {
             opacity: 1;
             color: $purple-1;
 
-            transition: opacity 0.5s;
+            transition: opacity 2.5s;
 
             cursor: pointer;
         }

@@ -1,11 +1,11 @@
 @for $i from 1 through 4 {
-    .menu__section__item {
+    .menu__section {
         opacity: 0;
     }
-    .menu__section__item:nth-of-type(#{$i}) {
+    .menu__section:nth-of-type(#{$i}) {
         animation-name: fadein;
         animation-duration: #{$i}s;
-        animation-delay: #{$i * 100}ms;
+        animation-delay: #{$i * 200}ms;
         animation-fill-mode: forwards;
     }
 }
