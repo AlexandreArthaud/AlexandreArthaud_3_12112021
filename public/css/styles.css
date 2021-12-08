@@ -359,11 +359,18 @@ footer nav ul li a {
 }
 .menu__header .fas.fa-heart {
   opacity: 0;
-  transition: opacity 0s;
+  transition: opacity 1s;
 }
 .menu__header .far.fa-heart {
   opacity: 1;
   transition: opacity 1s;
+}
+.menu__header .fa-stack {
+  display: grid;
+}
+.menu__header .fa-stack * {
+  grid-column: 1;
+  grid-row: 1;
 }
 .menu__header .fa-stack:hover .far.fa-heart {
   opacity: 0;
@@ -484,11 +491,18 @@ footer nav ul li a {
 }
 .restaurants__list__item .fas.fa-heart {
   opacity: 0;
-  transition: opacity 0s;
+  transition: opacity 1s;
 }
 .restaurants__list__item .far.fa-heart {
   opacity: 1;
   transition: opacity 1s;
+}
+.restaurants__list__item .fa-stack {
+  display: grid;
+}
+.restaurants__list__item .fa-stack * {
+  grid-column: 1;
+  grid-row: 1;
 }
 .restaurants__list__item .fa-stack:hover .far.fa-heart {
   opacity: 0;

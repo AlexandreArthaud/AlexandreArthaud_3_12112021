@@ -27,10 +27,20 @@
     .fas.fa-heart {
         opacity: 0;
 
-        transition: opacity 0s;
+        transition: opacity 1s;
     }
     .far.fa-heart {
         opacity: 1;;
+
+        transition: opacity 1s;
+    }
+
+    .fa-stack {
+        display: grid;
+    }
+    .fa-stack * {
+        grid-column: 1;
+        grid-row: 1;
     }
 
     .fa-stack:hover {
